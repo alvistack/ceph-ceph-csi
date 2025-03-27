@@ -19,6 +19,24 @@ entries:
     urls:
     - https://github.com/alvistack/ceph-ceph-csi/releases/download/ceph-csi-cephfs-3-canary/ceph-csi-cephfs-3-canary.tgz
     version: 3-canary
+  - apiVersion: v1
+    appVersion: canary
+    created: "2025-03-27T04:30:38.563337426Z"
+    description: Container Storage Interface (CSI) driver, provisioner, snapshotter
+      and resizer for Ceph cephfs
+    digest: 5d6a55e348d9a92534ed8269fd9cc072aa3743922cd1c68b9a270517d2006536
+    home: https://github.com/ceph/ceph-csi
+    icon: https://raw.githubusercontent.com/ceph/ceph-csi/devel/assets/ceph-logo.png
+    keywords:
+    - ceph
+    - cephfs
+    - ceph-csi
+    name: ceph-csi-cephfs
+    sources:
+    - https://github.com/ceph/ceph-csi/tree/devel/charts/ceph-csi-cephfs
+    urls:
+    - https://github.com/alvistack/ceph-ceph-csi/releases/download/ceph-csi-cephfs-3-canary/ceph-csi-cephfs-3-canary.tgz
+    version: 3-canary
   ceph-csi-rbd:
   - apiVersion: v1
     appVersion: canary
@@ -38,4 +56,22 @@ entries:
     urls:
     - https://github.com/alvistack/ceph-ceph-csi/releases/download/ceph-csi-rbd-3-canary/ceph-csi-rbd-3-canary.tgz
     version: 3-canary
-generated: "2025-03-27T03:49:31.030632728Z"
+  - apiVersion: v1
+    appVersion: canary
+    created: "2025-03-27T04:30:38.706526114Z"
+    description: Container Storage Interface (CSI) driver, provisioner, snapshotter,
+      resizer and attacher for Ceph RBD
+    digest: 14c5d3c9dedb1b44b44f486e57e59ea43af91c61c8acff406aae6cf58328ad3f
+    home: https://github.com/ceph/ceph-csi
+    icon: https://raw.githubusercontent.com/ceph/ceph-csi/devel/assets/ceph-logo.png
+    keywords:
+    - ceph
+    - rbd
+    - ceph-csi
+    name: ceph-csi-rbd
+    sources:
+    - https://github.com/ceph/ceph-csi/tree/devel/charts/ceph-csi-rbd
+    urls:
+    - https://github.com/alvistack/ceph-ceph-csi/releases/download/ceph-csi-rbd-3-canary/ceph-csi-rbd-3-canary.tgz
+    version: 3-canary
+generated: "2025-03-27T04:30:38.70653509Z"
