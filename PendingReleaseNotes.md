@@ -4,4 +4,6 @@
 
 ## Features
 
+- helm: Support VolumeSnapshotClass and VolumeGroupSnapshotClass
+
 ## NOTE
